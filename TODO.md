@@ -7,6 +7,7 @@
 - [x] adjust tenure-location font size
 - [ ] convert css to sass
 - [ ] add bash script to run `sass`, `hackmyresume`, and then `node`
+- [x] modify node script to take filename as arg, and pass it via bash script. if no arg is supplied to bash script, default is passed
 - [ ] references: https://medium.com/@colinwren/automating-my-resume-with-hackmyresume-fresh-6b99d655b1a | https://github.com/hacksalot/HackMyResume/blob/master/README.md | https://github.com/fresh-standard/fresh-resume-schema/blob/master/schema/fresh-resume-schema_1.0.0-beta.json | https://github.com/fresh-standard/fresh-themes
 - [ ] alternate template for future theme: https://www.overleaf.com/latex/templates/yet-another-resume-template/gdxwyyqhspsf
 - [ ] inspired by: https://enhancv.com/resume-examples/full-stack-developer/

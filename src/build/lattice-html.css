@@ -1,6 +1,6 @@
 /* An empty CSS file. */
   body {
-    font-family: {{{fontList 'default'}}};
+    font-family: 'Rubik', 'sans-serif';
     font-size: 12px;
     font-weight: lighter;
     margin: 0; padding: 0;
