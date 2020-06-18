@@ -1,4 +1,4 @@
-# Streamlined Resume
+# Streamlined Resume Development
 
 A fancy way of building my resume.
 
