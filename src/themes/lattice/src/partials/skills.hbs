@@ -1,0 +1,13 @@
+{{#section "skills"}}
+<section id="skills">
+  {{#> header-skills }}
+    {{> header-icon _title="SKILLS" _section="skills" _hdricon=(lookup . '_icon') }}
+  {{/header-skills}}
+  <div>
+    {{#each r.skills.sets}}
+    <p class="skill-name">{{ name }}</p>
+    <p class="skill-info">{{#each skills}}{{#if @first}}{{ . }}{{else}}, {{ . }}{{/if}}{{/each}}</p>
+    {{/each}}
+  </div>
+</section>
+{{/section}}

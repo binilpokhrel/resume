@@ -1,0 +1,19 @@
+{{#section "education"}}
+<section id="education">
+  {{#> header-education }}
+    {{> header-icon _title="EDUCATION" _section="education" _hdricon=(lookup . '_icon') }}
+  {{/header-education}}
+  {{#each r.education.history}}
+    {{#> body-education }}
+    <div>
+      {{#if title}}<h2 class="title">{{{ title }}}</h2>{{/if}}
+      <h3 class="institution">{{{ institution }}}</h3>
+      <div class="tenure">{{dateRange .}}</div>
+      {{{ summary }}}
+      {{> highlights }}
+      {{#if curriculum}}<span class="keywords">{{#each curriculum}}{{{ . }}} {{/each}}</span>{{/if}}
+    </div>
+    {{/body-education}}
+  {{/each}}
+</section>
+{{/section}}

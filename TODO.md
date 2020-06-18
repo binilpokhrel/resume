@@ -1,0 +1,13 @@
+# TODO:
+- [x] update keywords
+- [x] update skills
+- [x] build theme
+- [ ] change font size to be dynamic to fit whole line
+- [x] adjust font weight, and font size of everything
+- [x] adjust tenure-location font size
+- [ ] convert css to sass
+- [ ] add bash script to run `sass`, `hackmyresume`, and then `node`
+- [ ] references: https://medium.com/@colinwren/automating-my-resume-with-hackmyresume-fresh-6b99d655b1a | https://github.com/hacksalot/HackMyResume/blob/master/README.md | https://github.com/fresh-standard/fresh-resume-schema/blob/master/schema/fresh-resume-schema_1.0.0-beta.json | https://github.com/fresh-standard/fresh-themes
+- [ ] alternate template for future theme: https://www.overleaf.com/latex/templates/yet-another-resume-template/gdxwyyqhspsf
+- [ ] inspired by: https://enhancv.com/resume-examples/full-stack-developer/
+- [ ] usage: `hackmyresume build in/resume-f.json to out/resume.html -t fresh-themes/themes/fluffy` and then `node gen-pdf.js`

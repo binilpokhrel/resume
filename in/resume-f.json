@@ -1,0 +1,261 @@
+{
+  "name": "Binil Pokhrel",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Full Stack Developer",
+    "brief": "",
+    "image": ""
+  },
+  "contact": {
+    "website": "",
+    "phone": "647-786-2025",
+    "email": "binil.pokhrel@uwaterloo.ca",
+    "other": []
+  },
+  "location": {
+    "address": "76 Conn Smythe Dr.",
+    "city": "Scarborough",
+    "region": "ON",
+    "code": "M1J 3P5",
+    "country": "CA"
+  },
+  "social": [
+    {
+      "label": "github",
+      "network": "github",
+      "user": "binilpokhrel",
+      "url": "https://github.com/binilpokhrel/"
+    },
+    {
+      "label": "linkedin-in",
+      "network": "linkedin",
+      "user": "in/binilpokhrel",
+      "url": "https://linkedin.com/in/binilpokhrel/"
+    }
+  ],
+  "employment": {
+    "summary": "",
+    "history": [
+      {
+        "employer": "DarwinAI",
+        "url": "https://www.darwinai.com/",
+        "position": "Full Stack Developer",
+        "summary": "",
+        "start": "2020-01",
+        "end": "2020-04",
+        "location": "Waterloo, ON",
+        "keywords": [
+          "Angular",
+          "Node.js",
+          "Express.js",
+          "RxJS",
+          "Docker",
+          "Objection.js",
+          "PostgreSQL",
+          "MSSQL",
+          "SQLite"
+        ],
+        "highlights": [
+          "Developed a version management system for Tensorflow networks and datasets that facilitates a more intuitive way to train neural networks, resulting in **15% less downtime**.",
+          "Improved codebase's Angular reactive form control infrastructure by decoupling validation logic from component logic via integration of custom rules engine.",
+          "Optimized end-to-end data flow, building cache services, creating database indices, and eliminating redundancies in object-relational mapping."
+        ]
+      },
+      {
+        "employer": "InFlight Corp.",
+        "url": "https://inflightintegration.com/",
+        "position": "Software Developer",
+        "summary": "",
+        "start": "2019-05",
+        "end": "2019-08",
+        "location": "Kitchener, ON",
+        "keywords": [
+          "Angular",
+          "Node.js",
+          "Jest",
+          "Bootstrap",
+          "TypeScript Compiler API"
+        ],
+        "highlights": [
+          "Built internal data model parser to increase visibility into product performance and to facilitate automation of unit tests, **saving 200+ hours** of developer work.",
+          "Engineered robust, self-repairing test suite API, generating **20x testing coverage**; published for use across engineering team.",
+          "Leveraged life-cycle hooks and response caching in frontend overhaul, leading to **20% reduction** in inter-service latency and request runtime.",
+          "Instituted master-detail design pattern alongisde auxiliary routes with Angular Router to transform bloated navigation into dynamic single-page application, providing template for future client projects."
+        ]
+      },
+      {
+        "employer": "Hubdoc Inc.",
+        "url": "https://www.hubdoc.com/",
+        "position": "Software Developer",
+        "summary": "",
+        "start": "2018-09",
+        "end": "2018-12",
+        "location": "Toronto, ON",
+        "keywords": [
+          "Node.js",
+          "jQuery",
+          "Backbone.js",
+          "Express.js",
+          "C3.js",
+          "Nightmare",
+          "PhantomJS",
+          "PostgreSQL"
+        ],
+        "highlights": [
+          "Designed and implemented web-scraping robot workflows to fetch financial documents and metadata from banks and vendors for **5000+ clients**, navigating websites with 2FA, ReCaptchas, bot detection, etc.",
+          "Constructed new platform on company intranet to facilitate & simplify internal beta-testing of existing features for production web app.",
+          "Enhanced robot-success data visualization by integrating new metrics & improving performance breakdowns."
+        ]
+      },
+      {
+        "employer": "Wyzelink Systems Inc.",
+        "url": "",
+        "position": "Web Developer",
+        "summary": "",
+        "start": "2018-01",
+        "end": "2018-04",
+        "location": "Toronto, ON",
+        "keywords": [
+          "C++",
+          "Postman",
+          "Nightmare",
+          "ngrok",
+          "Papertrail"
+        ],
+        "highlights": [
+          "Spearheaded development of various automation tools aimed to greatly enhance workflow efficiency.",
+          "Bluetooth ad parser converts company's IoT device transmission into an easily readable format; **increased time efficiency of testing by 90%**.",
+          "Ad generator dynamically generates Bluetooth Low Energy packet using advertisement protocol."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "PillBox",
+      "location": "BostonHacks",
+      "category": "Hackathon",
+      "url": "https://devpost.com/software/pillbox-c9z0sq",
+      "repo": "https://github.com/binilpokhrel/boston-hacks-2019",
+      "media": [],
+      "role": "",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Won sponsor prize for **Best Digital Health Hack** with web-app controlled automatic IoT pill dispensary system.",
+        "Dashboard enables users and caregivers to setup dosage, schedule, and text alerts for easy management of medication.",
+        "Architected entirety of jQuery-driven frontend and designed RESTful API for Python Flask backend."
+      ],
+      "keywords": [
+        "Express",
+        "Ajax",
+        "jQuery"
+      ]
+    },
+    {
+      "title": "TrashTag-It",
+      "location": "UW EnergyHacks",
+      "category": "Hackathon",
+      "url": "https://github.com/binilpokhrel/trashtagit",
+      "repo": "https://github.com/binilpokhrel/trashtagit",
+      "media": [],
+      "role": "",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Developed Android app using Google Maps SDK to chart litter locations across local communities.",
+        "Won **first place in MLH**'s Best Use of SnapKit SDK and Transposit Framework prize categories.",
+        "Built JavaScript API endpoints for location services and Python Flask web server."
+      ],
+      "keywords": [
+        "Kotlin",
+        "Javascript"
+      ]
+    },
+    {
+      "title": "Othello AI",
+      "location": "",
+      "category": "",
+      "url": "https://github.com/binilpokhrel/othello",
+      "repo": "https://github.com/binilpokhrel/othello",
+      "media": [],
+      "role": "",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Designed and developed a 1-player Othello game with 4-ply minimax, heuristic, and alpha-beta pruning algorithms for AI.",
+        "Implemented LED board and push buttons to facilitate more intuitive gameplay with current + legal move highlighting."
+      ],
+      "keywords": [
+        "C++",
+        "Arduino"
+      ]
+    }
+  ],
+  "education": {
+    "summary": "",
+    "level": "degree",
+    "degree": "",
+    "history": [
+      {
+        "institution": "University of Waterloo",
+        "title": "B.A.Sc. Computer Engineering",
+        "url": "",
+        "start": "2017-09",
+        "end": "2022-05",
+        "grade": "",
+        "summary": "",
+        "curriculum": [
+          ""
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Languages",
+        "level": "",
+        "skills": [
+          "Javascript (ES8)",
+          "TypeScript",
+          "SQL",
+          "C/C++",
+          "Java",
+          "Kotlin",
+          "Python",
+          "HTML5",
+          "CSS3"
+        ]
+      },
+      {
+        "name": "Technologies",
+        "level": "",
+        "skills": [
+          "Angular 7+8",
+          "Node.js",
+          "RxJS",
+          "Express.js",
+          "PostgreSQL",
+          "Objection.js",
+          "jQuery",
+          "Jest",
+          "Handlebars",
+          "SCSS",
+          "Swagger",
+          "Bootstrap",
+          "Backbone.js",
+          "c3.js",
+          "Docker",
+          "REST",
+          "Bash",
+          "Git"
+        ]
+      }
+    ],
+    "list": []
+  }
+}

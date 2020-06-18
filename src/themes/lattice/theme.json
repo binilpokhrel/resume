@@ -1,0 +1,27 @@
+{
+  "title": "fluffy",
+  "description": "A bold two-column resume theme.",
+  "author": "Binil Pokhrel <binil.pokhrel@uwaterloo.ca> (https://github.com/binilpokhrel)",
+  "engine": "handlebars",
+  "inherits": {
+    "txt": "basis",
+    "md": "basis"
+  },
+  "colors": {
+    "hyperlink": "C00000"
+  },
+  "fonts": {
+    "all": {
+      "default": [ "Rubik", "sans-serif" ],
+      "heading1": [ "Rubik", "Lato", "sans-serif" ],
+      "heading2": [ "Rubik", "sans-serif" ]
+    },
+    "doc": {
+      "title": "Open Sans Light",
+      "heading1": "Open Sans Light",
+      "heading2": "Open Sans Light",
+      "heading3": "Open Sans Light",
+      "default": "Calibri"
+    }
+  }
+}
