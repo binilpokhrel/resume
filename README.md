@@ -1,6 +1,8 @@
-# Streamlined Resume Development
+# Streamlined Resume
 
 A fancy way of building my resume.
+
+"Traditional" resume building using LaTeX and Overleaf led to a lot of difficulties in developing the content and style of the resume separately, as well as versioning. This project allows me to decouple the content from design, and provides much more flexibility in development.
 
 ## How It Works
 
@@ -8,18 +10,24 @@ A fancy way of building my resume.
 
 The JSON/FRESH resume lives in the `in` directory. Then `build.sh` uses `hackmyresume` to create an HTML version of the resume with my custom-built theme `lattice` applied, and then captures a PDF using Puppeteer. Final PDF resume lives in `out`.
 
+`Lattice` is built using HTML/CSS, with Handlebars for templating.
+
+![Usage](/src/assets/readme-console.png)
+
 ### Installing
 
-Clone this project, then create a `/out/${TERM}/` path from the project root to store your resumes for `$TERM`. run `npm i` to install `Puppeteer`, `Yargs`, and `Colors`.
+Clone this project, then create a `out/${TERM}/` path from the project root to store your resumes for `$TERM`. run `npm i` to install `Puppeteer`, `Yargs`, and `Colors`. Optionally, build your own theme or modify the existing one under `src/themes/`.
 
 ### Usage
 
 ```
 ./build.sh [-t term] [-v version] [-l label]
     *   -t: [DEFAULT=3A] dictates which subdirectory within /out/ to save PDF
-    *   -v: [DEFAULT=resume] which ${VERSION}.json file to use as input
+    *   -v: [DEFAULT=resume] which json resume file to use as input
     *   -l: [DEFAULT=resume] desired filename of the captured PDF   
 ```
+
+![Sample Resume](/src/assets/readme-resume.png)
 
 ## Built With
 

@@ -30,5 +30,5 @@ const filePath = path.resolve(__dirname, `./build/${label}.html`);
     preferCSSPageSize: true,
   });
   await browser.close();
-  logger.success(`Success! Output at ${term}/${label}.pdf`);
+  logger.success(`Success! Output at out/${term}/${label}.pdf`);
 })();
