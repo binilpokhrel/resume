@@ -10,7 +10,7 @@ A fancy way of building my resume.
 
 The JSON/FRESH resume lives in the `in` directory. Then `build.sh` uses `hackmyresume` to create an HTML version of the resume with my custom-built theme `lattice` applied, and then captures a PDF using Puppeteer. Final PDF resume lives in `out`.
 
-`Lattice` is built using HTML/CSS, with Handlebars for templating.
+`Lattice` is built using HTML/CSS, with Handlebars for templating. This makes it easy to tweak to suit different styles.
 
 ![Usage](/src/assets/readme-console.png)
 

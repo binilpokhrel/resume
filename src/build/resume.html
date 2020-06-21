@@ -8,273 +8,278 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
         <style>
-            /* An empty CSS file. */
-              body {
-                font-family: 'Rubik', 'sans-serif';
-                font-size: 12px;
-                font-weight: lighter;
-                margin: 0; padding: 0;
-                display: block;
-              }
+            :root {
+              --primary-color: black;
+              --secondary-color:  #0066CC;  
+              --tertiary-color:  #1F456E;
+              /* alt colors: --primary-color: #2B2741;
+              --secondary-color: #3FB1AC; #0E4D92; #0066CC; #399e99; #68a8b1;
+              --tertiary-color: #1c5469; #1D2951; #1F456E; #1c3d69; */
+            }
             
-              main {
-                padding: 0 50px 10px 50px;
-                /* max-width: 700px; */
-                margin: 0 auto;
-                max-height: 297mm;
-                max-width: 210mm;
-                /* outline: 1px solid black; */
-              }
+            body {
+              font-family: 'Rubik', 'sans-serif';
+              font-size: 12px;
+              font-weight: lighter;
+              margin: 0; padding: 0;
+              display: block;
+              color: var(--primary-color);
+            }
             
-              main > header {
-                width: 100%;
-                float: left;
-                padding-block-start: 2em;
-                padding-block-end: 0.5em;
-                margin-block-end: 2em;
-                position: relative;
-                background: url('../assets/background5.png') right no-repeat; /* path relative to build folder */
-              }
+            main {
+              padding: 0 50px 10px 50px;
+              /* max-width: 700px; */
+              margin: 0 auto;
+              max-height: 297mm;
+              max-width: 210mm;
+              /* outline: 1px solid black; */
+            }
             
-              #name {
-                font-size: 35px;
-              }
+            main > header {
+              width: 100%;
+              float: left;
+              padding-block-start: 2em;
+              padding-block-end: 0.5em;
+              margin-block-end: 2em;
+              position: relative;
+              background: url('../assets/background5.png') right no-repeat; /* path relative to build folder */
+            }
             
-              #contact {
-                float: left;
-                position: absolute;
-                bottom: 0;
-              }
-              
-              #contact > div {
-                display: inline-block;
-                margin-left: 5px;
-              }
+            #name {
+              font-size: 35px;
+            }
             
-              h1, h2 {
-                text-transform: uppercase;
-              }
+            #contact {
+              float: left;
+              position: absolute;
+              bottom: 0;
+            }
             
-              h2 {
-                margin: 0;
-              }
-              
-              a:link, a:visited {
-                color: inherit;
-                text-decoration: none;
-              }
-              
-              a:hover {
-                text-decoration: none;
-              }
+            #contact > div {
+              display: inline-block;
+              margin-left: 5px;
+            }
             
-              .social {
-                margin-inline-end: 10px;
-                display: inline-block;
-                margin-inline-start: 5px;
-              }
+            h1, h2 {
+              text-transform: uppercase;
+            }
             
-              .email::before {
-                font-family: "Line Awesome Free";
-                content: "\f1fa";
-                display: inline-block;
-                padding-right: 3px;
-                font-weight: 900;
-                color: red;
-              }
+            h2 {
+              margin: 0;
+            }
             
-              .github, .linkedin {
-                padding-right: 3px;
-                color: red;
-              }
+            a:link, a:visited {
+              color: inherit;
+              text-decoration: none;
+            }
             
-              /* .github::before {
-                font-family: "Line Awesome Free";
-                content: "\f09b";
-                display: inline-block;
-                padding-right: 3px;
-                font-weight: 900;
-                padding-right: 3px;
-              }
+            a:hover {
+              text-decoration: none;
+            }
             
-              .linkedin::before {
-                font-family: "Line Awesome Free";
-                content: "\f0e1";
-                display: inline-block;
-                padding-right: 3px;
-                font-weight: 900;
-                color: red;
-              } */
+            strong {
+              color: var(--primary-color);
+            }
             
-              .content {
-                clear: both;
-                display: flex;
-                flex-flow: row wrap;
-                justify-content: space-between;
-                align-items: flex-start;
-              }
+            .social {
+              margin-inline-end: 10px;
+              display: inline-block;
+              margin-inline-start: 5px;
+            }
             
-              .left {
-                flex: 0 0 55%;
-              }
+            .email::before {
+              font-family: "Line Awesome Free";
+              content: "\f1fa";
+              display: inline-block;
+              padding-right: 3px;
+              font-weight: 900;
+              color: var(--secondary-color);
+            }
             
-              .right {
-                flex: 0 0 40%;
-              }
+            .github, .linkedin {
+              padding-right: 3px;
+              color: var(--secondary-color);
+            }
             
-              section {
-                margin-block-end: 2em;
-              }
+            /* .github::before {
+              font-family: "Line Awesome Free";
+              content: "\f09b";
+              display: inline-block;
+              padding-right: 3px;
+              font-weight: 900;
+              padding-right: 3px;
+            }
             
-              section header {
-                font-size: 15px;
-                border-bottom: 3px solid black;
-                width: 100%;
-                display: block;
-              }
+            .linkedin::before {
+              font-family: "Line Awesome Free";
+              content: "\f0e1";
+              display: inline-block;
+              padding-right: 3px;
+              font-weight: 900;
+              color: red;
+            } */
             
-              section header h2 {
-                margin: 0;
-              }
+            .content {
+              clear: both;
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: space-between;
+              align-items: flex-start;
+            }
             
-              section > div {
-                margin-block-start: 1em;
-                padding-inline-end: 2em;
-                overflow: auto;
-              }
+            .left {
+              flex: 0 0 55%;
+            }
             
-              section ul {
-                padding-inline-start: 5px;
-                margin-block-start: 3px;
-                margin-block-end: 0;
-              }
+            .right {
+              flex: 0 0 40%;
+            }
             
-              section li {
-                margin-left: 1em;
-              }
+            section {
+              margin-block-end: 2em;
+            }
             
-              section div h2 {
-                font-weight: normal;
-              }
+            section header {
+              font-size: 15px;
+              border-bottom: 3px solid var(--primary-color);
+              width: 100%;
+              display: block;
+            }
             
-              #employment .position {
-                font-size: smaller;
-                color: red;
-              }
+            section header h2 {
+              margin: 0;
+              color: var(--primary-color);
+            }
             
-              section .keywords {
-                float: left;
-                font-weight: normal;
-                color: #696969;
-                margin-block-end: 3px;
-              }
+            section > div {
+              margin-block-start: 1em;
+              padding-inline-end: 2em;
+              overflow: auto;
+            }
             
-              #employment .tenure-location, #projects .location, #education .tenure {
-                clear: both;
-                font-size: smaller;
-              }
+            section ul {
+              padding-inline-start: 5px;
+              margin-block-start: 3px;
+              margin-block-end: 0;
+            }
             
-              .tenure::before {
-                font-family: "Line Awesome Free";
-                content: "\f073";
-                display: inline-block;
-                padding-right: 3px;
-                font-weight: 900;
-              }
+            section li {
+              margin-left: 1em;
+            }
             
-              #employment .tenure {
-                padding-right: 2em;
-              }
+            section div h2 {
+              font-weight: normal;
+              color: var(--secondary-color);
+            }
             
-              #skills .skill-name {
-                font-size: 16px;
-              }
+            #employment .employer {
+              font-size: smaller;
+              color: var(--primary-color);
+            }
             
-              #skills .skill-info {
-                float: left;
-                font-weight: bolder;
-                color: #2F4F4F;
-                margin-inline-start: 1em;
-                margin-block-end: 1em;
-                word-spacing: 0.5em;
-              }
+            section .keywords {
+              float: left;
+              font-weight: normal;
+              color: var(--tertiary-color);
+              margin-block-end: 3px;
+            }
             
-              #skills .skill-info:last-child {
-                margin-block-end: 0;
-              }
+            #employment .tenure-location, #projects .location, #education .tenure {
+              clear: both;
+              font-size: smaller;
+            }
             
-              .location::before {
-                font-family: "Line Awesome Free";
-                content: "\f3c5";
-                display: inline-block;
-                padding-right: 3px;
-                font-weight: 900;
-              }
+            .tenure::before {
+              font-family: "Line Awesome Free";
+              content: "\f073";
+              display: inline-block;
+              padding-right: 3px;
+              font-weight: 900;
+            }
             
-              .link::before {
-                font-family: "Line Awesome Free";
-                content: "\f0c1";
-                display: inline-block;
-                padding-right: 3px;
-                font-weight: 900;
-              }
+            #employment .tenure {
+              padding-right: 2em;
+            }
             
-              h3 {
-                font-size: 1em;
-                margin-block-start: 3px;
-                margin-block-end: 3px;
-              }
-              
-              /* hr {
-                border: none;
-                border-top: 1px solid #B3B3B3;
-                width: 1cm;
-                margin: 0;
-              } */
+            #skills .skill-name {
+              font-size: 16px;
+              font-weight: bolder;
+            }
             
-              
-              /* section {
-                margin-top: 1em;
-              } */
+            #skills .skill-info {
+              float: left;
+              /* font-weight: bolder; */
+              /* color: var(--tertiary-color); */
+              margin-inline-start: 1em;
+              margin-block-end: 1em;
+              word-spacing: 0.5em;
+            }
             
-              #education .title {
-                text-transform: none;
-              }
+            #skills .skill-info:last-child {
+              margin-block-end: 0;
+            }
             
-              #education .institution {
-                clear: both;
-                font-size: 15px;
-                color: red;
-              }
+            .location::before {
+              font-family: "Line Awesome Free";
+              content: "\f3c5";
+              display: inline-block;
+              padding-right: 3px;
+              font-weight: 900;
+            }
             
-              p {
-                margin-block-start: 0;
-                margin-block-end: 0;
-              }
+            .link::before {
+              font-family: "Line Awesome Free";
+              content: "\f0c1";
+              display: inline-block;
+              padding-right: 3px;
+              font-weight: 900;
+            }
             
-              p, li {
-                text-align: justify;
-                clear: both;
-              }
-              
-              thead {
-                display: none;
-              }
+            /* hr {
+              border: none;
+              border-top: 1px solid #B3B3B3;
+              width: 1cm;
+              margin: 0;
+            } */
             
             
+            /* section {
+              margin-top: 1em;
+            } */
             
-              
-              
-              h3 {
-                display: inline-block;
-                line-height: 1;
-              }
+            #education .title {
+              text-transform: none;
+            }
             
-              
-              /* section > div {
-                margin-bottom: 1em;
-                clear: both;
-              } */
+            #education .institution {
+              display: inline-block;
+              line-height: 1;
+              font-size: 1em;
+              margin-block-start: 3px;
+              margin-block-end: 3px;
+              clear: both;
+              font-size: 15px;
+              color: var(--primary-color);
+            }
+            
+            p {
+              margin-block-start: 0;
+              margin-block-end: 0;
+            }
+            
+            p, li {
+              text-align: justify;
+              clear: both;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            /* section > div {
+              margin-bottom: 1em;
+              clear: both;
+            } */
         </style>
     </head>
     
@@ -305,8 +310,11 @@
                         </header>
                         <div>
                              <h2>
-                  <a href="https://www.darwinai.com/">DarwinAI</a>
                   <span class="position">Full Stack Developer</span>
+                  <span class="employer">
+                    |
+                    <a href="https://www.darwinai.com/">DarwinAI</a>
+                  </span>
                 </h2>
 
                             <div class="keywords">Angular, Node.js, Express.js, RxJS, Docker, Objection.js, PostgreSQL,
@@ -328,8 +336,11 @@
                         </div>
                         <div>
                              <h2>
-                  <a href="https://inflightintegration.com/">InFlight Corp.</a>
                   <span class="position">Software Developer</span>
+                  <span class="employer">
+                    |
+                    <a href="https://inflightintegration.com/">InFlight</a>
+                  </span>
                 </h2>
 
                             <div class="keywords">Angular, Node.js, Jest, Bootstrap, TypeScript Compiler API</div>
@@ -353,8 +364,11 @@
                         </div>
                         <div>
                              <h2>
-                  <a href="https://www.hubdoc.com/">Hubdoc Inc.</a>
                   <span class="position">Software Developer</span>
+                  <span class="employer">
+                    |
+                    <a href="https://www.hubdoc.com/">Hubdoc</a>
+                  </span>
                 </h2>
 
                             <div class="keywords">Node.js, jQuery, Backbone.js, Express.js, C3.js, Nightmare, PhantomJS,
@@ -375,8 +389,11 @@
                         </div>
                         <div>
                              <h2>
-                  Wyzelink Systems Inc.
                   <span class="position">Web Developer</span>
+                  <span class="employer">
+                    |
+                    Wyzelink Systems
+                  </span>
                 </h2>
 
                             <div class="keywords">C++, Postman, Nightmare, ngrok, Papertrail</div>
@@ -431,7 +448,7 @@
 
                         </header>
                         <div>
-                             <h2>
+                             <h2 class="title">
                   <a href="https://devpost.com/software/pillbox-c9z0sq">PillBox</a>
                 </h2>
 
@@ -447,7 +464,7 @@
                             </ul>
                         </div>
                         <div>
-                             <h2>
+                             <h2 class="title">
                   <a href="https://github.com/binilpokhrel/trashtagit">TrashTag-It</a>
                 </h2>
 
@@ -463,7 +480,7 @@
                             </ul>
                         </div>
                         <div>
-                             <h2>
+                             <h2 class="title">
                   <a href="https://github.com/binilpokhrel/othello">Othello AI</a>
                 </h2>
 
