@@ -27,7 +27,11 @@ Clone this project, then create a `out/${TERM}/` path from the project root to s
     *   -l: [DEFAULT=resume] desired filename of the captured PDF   
 ```
 
-![Sample Resume](/src/assets/readme-resume.png)
+![Sample Resume, Alternative Format](/src/assets/readme-resume.png)
+
+Updating formats becomes trivial: the HTML & CSS just has to be tweaked accordingly and then the script rerun.
+
+![Sample Resume, Primary Format](/src/assets/readme-resume-2.png)
 
 ## Built With
 

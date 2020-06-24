@@ -1,7 +1,10 @@
 :root {
   --primary-color: black;
+  --secondary-color:  #00BCD4;  
+  --tertiary-color:  #006064;
+  /* --primary-color: black;
   --secondary-color:  #0066CC;  
-  --tertiary-color:  #1F456E;
+  --tertiary-color:  #1F456E; */
   /* alt colors: --primary-color: #2B2741;
   --secondary-color: #3FB1AC; #0E4D92; #0066CC; #399e99; #68a8b1;
   --tertiary-color: #1c5469; #1D2951; #1F456E; #1c3d69; */
