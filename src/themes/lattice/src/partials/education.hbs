@@ -8,7 +8,7 @@
     <div>
       {{#if title}}<h2 class="title">{{{ title }}}</h2>{{/if}}
       <h3 class="institution">{{{ institution }}}</h3>
-      <div class="tenure">{{dateRange .}}</div>
+      <div class="tenure">{{ dateRange .}}</div>
       {{{ summary }}}
       {{> highlights }}
       {{#if curriculum}}<span class="keywords">{{#each curriculum}}{{{ . }}} {{/each}}</span>{{/if}}

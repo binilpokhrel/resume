@@ -2,18 +2,23 @@
   --primary-color: black;
   --secondary-color:  #00BCD4;  
   --tertiary-color:  #006064;
-  /* --primary-color: black;
+  --lightest: 400;
+  --medium: 500;
+  --boldest: 600;
+}
+
+/* alternative/experimental colors: 
+  --primary-color: black;
   --secondary-color:  #0066CC;  
-  --tertiary-color:  #1F456E; */
-  /* alt colors: --primary-color: #2B2741;
+  --tertiary-color:  #1F456E;
+  --primary-color: #2B2741;
   --secondary-color: #3FB1AC; #0E4D92; #0066CC; #399e99; #68a8b1;
   --tertiary-color: #1c5469; #1D2951; #1F456E; #1c3d69; */
-}
 
 body {
   font-family: {{{fontList 'default'}}};
   font-size: 12px;
-  font-weight: lighter;
+  font-weight: var(--medium);
   margin: 0; padding: 0;
   display: block;
   color: var(--primary-color);
@@ -21,11 +26,9 @@ body {
 
 main {
   padding: 0 50px 10px 50px;
-  /* max-width: 700px; */
   margin: 0 auto;
   max-height: 297mm;
   max-width: 210mm;
-  /* outline: 1px solid black; */
 }
 
 main > header {
@@ -40,12 +43,14 @@ main > header {
 
 #name {
   font-size: 35px;
+  font-weight: var(--boldest);
 }
 
 #contact {
   float: left;
   position: absolute;
   bottom: 0;
+  font-weight: var(--lightest);
 }
 
 #contact > div {
@@ -94,24 +99,6 @@ strong {
   color: var(--secondary-color);
 }
 
-/* .github::before {
-  font-family: "Line Awesome Free";
-  content: "\f09b";
-  display: inline-block;
-  padding-right: 3px;
-  font-weight: 900;
-  padding-right: 3px;
-}
-
-.linkedin::before {
-  font-family: "Line Awesome Free";
-  content: "\f0e1";
-  display: inline-block;
-  padding-right: 3px;
-  font-weight: 900;
-  color: red;
-} */
-
 .content {
   clear: both;
   display: flex;
@@ -142,6 +129,7 @@ section header {
 section header h2 {
   margin: 0;
   color: var(--primary-color);
+  font-weight: var(--boldest);
 }
 
 section > div {
@@ -161,7 +149,7 @@ section li {
 }
 
 section div h2 {
-  font-weight: normal;
+  font-weight: var(--medium);
   color: var(--secondary-color);
 }
 
@@ -172,9 +160,13 @@ section div h2 {
 
 section .keywords {
   float: left;
-  font-weight: normal;
+  font-weight: var(--medium);
   color: var(--tertiary-color);
   margin-block-end: 3px;
+}
+
+section .highlights {
+  font-weight: var(--lightest);
 }
 
 #employment .tenure-location, #projects .location, #education .tenure {
@@ -196,13 +188,12 @@ section .keywords {
 
 #skills .skill-name {
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: var(--medium);
 }
 
 #skills .skill-info {
   float: left;
-  /* font-weight: bolder; */
-  /* color: var(--tertiary-color); */
+  font-weight: var(--lightest);
   margin-inline-start: 1em;
   margin-block-end: 1em;
   word-spacing: 0.5em;
@@ -227,18 +218,6 @@ section .keywords {
   padding-right: 3px;
   font-weight: 900;
 }
-
-/* hr {
-  border: none;
-  border-top: 1px solid #B3B3B3;
-  width: 1cm;
-  margin: 0;
-} */
-
-
-/* section {
-  margin-top: 1em;
-} */
 
 #education .title {
   text-transform: none;
@@ -268,10 +247,4 @@ p, li {
 thead {
   display: none;
 }
-
-/* section > div {
-  margin-bottom: 1em;
-  clear: both;
-} */
-
   
