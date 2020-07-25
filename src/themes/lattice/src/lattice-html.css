@@ -2,9 +2,9 @@
   --primary-color: black;
   --secondary-color:  #00BCD4;  
   --tertiary-color:  #006064;
-  --lightest: 400;
-  --medium: 500;
-  --boldest: 600;
+  --lightest: 300;
+  --medium: 400;
+  --boldest: 500;
 }
 
 /* alternative/experimental colors: 
@@ -19,6 +19,7 @@ body {
   font-family: {{{fontList 'default'}}};
   font-size: 12px;
   font-weight: var(--medium);
+  font-variant-ligatures: none;
   margin: 0; padding: 0;
   display: block;
   color: var(--primary-color);

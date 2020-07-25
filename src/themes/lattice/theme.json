@@ -12,9 +12,10 @@
   },
   "fonts": {
     "all": {
-      "default": [ "Raleway", "sans-serif" ],
-      "heading1": [ "Lato", "sans-serif" ],
-      "heading2": [ "Lato", "sans-serif" ]
+      "default": [ "Rubik", "sans-serif" ],
+      "heading1": [ "Raleway", "sans-serif" ],
+      "heading2": [ "Noto Sans", "sans-serif" ],
+      "heading3": [ "Quicksand", "sans-serif"]
     },
     "doc": {
       "title": "Open Sans Light",

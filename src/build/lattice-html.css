@@ -2,9 +2,9 @@
   --primary-color: black;
   --secondary-color:  #00BCD4;  
   --tertiary-color:  #006064;
-  --lightest: 400;
-  --medium: 500;
-  --boldest: 600;
+  --lightest: 300;
+  --medium: 400;
+  --boldest: 500;
 }
 
 /* alternative/experimental colors: 
@@ -16,9 +16,10 @@
   --tertiary-color: #1c5469; #1D2951; #1F456E; #1c3d69; */
 
 body {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Rubik', 'sans-serif';
   font-size: 12px;
   font-weight: var(--medium);
+  font-variant-ligatures: none;
   margin: 0; padding: 0;
   display: block;
   color: var(--primary-color);
