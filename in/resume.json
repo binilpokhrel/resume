@@ -54,14 +54,15 @@
           "RxJS",
           "Docker",
           "Objection.js",
+          "Jest",
           "PostgreSQL",
           "MSSQL",
           "SQLite"
         ],
         "highlights": [
           "Developed a version management system for Tensorflow networks and datasets that facilitates a more intuitive way to train neural networks, resulting in **15% less downtime**.",
-          "Improved codebase's Angular reactive form control infrastructure by decoupling validation logic from component logic via integration of custom rules engine.",
-          "Optimized end-to-end data flow, building cache services, creating database indices, and eliminating redundancies in object-relational mapping."
+          "Optimized end-to-end data flow, building cache services, creating database indices, and eliminating redundancies in object-relational mapping.",
+          "Improved codebase's Angular reactive form control infrastructure by decoupling validation logic from component logic via integration of custom rules engine."
         ]
       },
       {
@@ -150,9 +151,9 @@
         "Architected entirety of jQuery-driven frontend and designed RESTful API for Python Flask backend."
       ],
       "keywords": [
-        "Express",
-        "Ajax",
-        "jQuery"
+        "Express.js",
+        "jQuery",
+        "AJAX"
       ]
     },
     {
@@ -186,8 +187,8 @@
       "summary": "",
       "description": "",
       "highlights": [
-        "Designed and developed a 1-player Othello game with 4-ply minimax, heuristic, and alpha-beta pruning algorithms for AI.",
-        "Implemented LED board and push buttons to facilitate more intuitive gameplay with current + legal move highlighting."
+        "Designed & developed a 1-player Othello game with 4-ply minimax, heuristic, and alpha-beta pruning algorithms for AI.",
+        "Implemented LED board and push buttons to facilitate more intuitive gameplay with legal move highlighting."
       ],
       "keywords": [
         "C++",
