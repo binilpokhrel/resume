@@ -84,7 +84,7 @@
           "Built internal data model parser to increase visibility into product performance and to facilitate automation of unit tests, **saving 200+ hours** of developer work.",
           "Engineered robust, self-repairing test suite API, generating **20x testing coverage**; published for use across engineering team.",
           "Leveraged life-cycle hooks and response caching in frontend overhaul, leading to **20% reduction** in inter-service latency and request runtime.",
-          "Instituted master-detail design pattern alongisde auxiliary routes with Angular Router to transform bloated navigation into dynamic single-page application, providing template for future client projects."
+          "Instituted master-detail design pattern alongside auxiliary routes with Angular Router to transform bloated navigation into dynamic single-page application, providing template for future client projects."
         ]
       },
       {
