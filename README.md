@@ -16,7 +16,7 @@ The JSON/FRESH resume lives in the `in` directory. Then `build.sh` uses `hackmyr
 
 ### Installing
 
-Clone this project, then create a `out/${TERM}/` path from the project root to store your resumes for `$TERM`. run `npm i` to install `Puppeteer`, `Yargs`, and `Colors`. Optionally, build your own theme or modify the existing one under `src/themes/`.
+Clone this project, then create a `out/${TERM}/` path from the project root to store your resumes for `$TERM`. run `npm i` to install `puppeteer`, `yargs`, and `colors`. Install `hackmyresume` with NPM as well: `[sudo] npm install hackmyresume -g`. Optionally, build your own theme or modify the existing one under `src/themes/`.
 
 ### Usage
 
