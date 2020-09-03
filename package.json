@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "A fancy way of building my resume.",
+  "main": "gen-pdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binilpokhrel/resume.git"
+  },
+  "author": "Binil Pokhrel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binilpokhrel/resume/issues"
+  },
+  "homepage": "https://github.com/binilpokhrel/resume#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "puppeteer": "^5.2.1",
+    "yargs": "^15.4.1"
+  }
+}
