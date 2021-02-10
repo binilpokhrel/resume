@@ -105,7 +105,7 @@ strong {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .left {
@@ -117,7 +117,7 @@ strong {
 }
 
 section {
-  margin-block-end: 2em;
+  margin-block-end: 3em;
 }
 
 section header {
@@ -233,6 +233,20 @@ section .highlights {
   clear: both;
   font-size: 15px;
   color: var(--primary-color);
+}
+
+#source {
+  font-weight: var(--lightest);
+  text-align: right;
+  font-size: smaller;
+}
+
+#source p {
+  text-align: inherit;
+}
+
+#source a {
+  color: var(--secondary-color);
 }
 
 p {

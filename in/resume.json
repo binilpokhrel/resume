@@ -2,7 +2,7 @@
   "name": "Binil Pokhrel",
   "meta": {
     "format": "FRESH@0.6.0",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
   "info": {
     "label": "Full Stack Developer",
@@ -44,25 +44,46 @@
         "url": "https://www.darwinai.com/",
         "position": "Full Stack Developer",
         "summary": "",
+        "start": "2020-09",
+        "end": "2020-12",
+        "location": "Waterloo, ON",
+        "keywords": [
+          "React",
+          "Angular",
+          "Node",
+          "Express",
+          "Python",
+          "RxJS",
+          "Docker",
+          "Jest"
+        ],
+        "highlights": [
+          "Spearheaded performance engineering strategy by analyzing performance profiles, reducing network load size, and identifying key bottlenecks of core platform to **improve runtime performance by 95%**.",
+          "Led full-stack development for open source COVID-Net UI platform in React and Python to provide **AI screening and risk stratification of COVID-19** to 23 hospitals.",
+          "Improved COVID-Net platform stability and user experience by building notification system and error service to terminate dead backend plugins.",
+          "Engineered several application-level middleware for Express backend, handling input data sanitization & parameter validation and eliminating key vulnerabilities in web application."
+        ]
+      },
+      {
+        "employer": "DarwinAI",
+        "url": "https://www.darwinai.com/",
+        "position": "Full Stack Developer",
+        "summary": "",
         "start": "2020-01",
         "end": "2020-04",
         "location": "Waterloo, ON",
         "keywords": [
           "Angular",
-          "Node.js",
-          "Express.js",
+          "Node",
+          "Express",
+          "PostgreSQL",
           "RxJS",
           "Docker",
-          "Objection.js",
-          "Jest",
-          "PostgreSQL",
-          "MSSQL",
-          "SQLite"
+          "WebSockets"
         ],
         "highlights": [
-          "Developed a version management system for Tensorflow networks and datasets that facilitates a more intuitive way to train neural networks, resulting in **15% less downtime**.",
           "Optimized end-to-end data flow, building cache services, creating database indices, and eliminating redundancies in object-relational mapping.",
-          "Improved codebase's Angular reactive form control infrastructure by decoupling validation logic from component logic via integration of custom rules engine."
+          "Developed a full-stack version management platform for Tensorflow networks and datasets using Angular, Express, and TypeScript that facilitates a more intuitive way to train neural networks, resulting in **15% less user downtime**."
         ]
       },
       {
@@ -75,16 +96,15 @@
         "location": "Kitchener, ON",
         "keywords": [
           "Angular",
-          "Node.js",
+          "Node",
           "Jest",
           "Bootstrap",
           "TypeScript Compiler API"
         ],
         "highlights": [
-          "Built internal data model parser to increase visibility into product performance and to facilitate automation of unit tests, **saving 200+ hours** of developer work.",
-          "Engineered robust, self-repairing test suite API, generating **20x testing coverage**; published for use across engineering team.",
-          "Leveraged life-cycle hooks and response caching in frontend overhaul, leading to **20% reduction** in inter-service latency and request runtime.",
-          "Instituted master-detail design pattern alongside auxiliary routes with Angular Router to transform bloated navigation into dynamic single-page application, providing template for future client projects."
+          "Built internal data model parser using TypeScript Compiler API to increase visibility into product performance and to facilitate automation of unit tests, **saving 200+ hours of developer work**.",
+          "Engineered robust, self-repairing test suite API with Jest, generating **20x testing coverage**; published for use across engineering team.",
+          "Leveraged Angular's life-cycle hooks and response caching in frontend overhaul, leading to **20% reduction in inter-service latency and request runtime**."
         ]
       },
       {
@@ -96,40 +116,18 @@
         "end": "2018-12",
         "location": "Toronto, ON",
         "keywords": [
-          "Node.js",
+          "Node",
+          "Express",
+          "PostgreSQL",
           "jQuery",
-          "Backbone.js",
-          "Express.js",
+          "Backbone",
           "C3.js",
-          "Nightmare",
-          "PhantomJS",
-          "PostgreSQL"
+          "Nightmare"
         ],
         "highlights": [
-          "Designed and implemented web-scraping robot workflows to fetch financial documents and metadata from banks and vendors for **5000+ clients**, navigating websites with 2FA, ReCaptchas, bot detection, etc.",
-          "Constructed new platform on company intranet to facilitate & simplify internal beta-testing of existing features for production web app.",
-          "Enhanced robot-success data visualization by integrating new metrics & improving performance breakdowns."
-        ]
-      },
-      {
-        "employer": "Wyzelink Systems",
-        "url": "",
-        "position": "Web Developer",
-        "summary": "",
-        "start": "2018-01",
-        "end": "2018-04",
-        "location": "Toronto, ON",
-        "keywords": [
-          "C++",
-          "Postman",
-          "Nightmare",
-          "ngrok",
-          "Papertrail"
-        ],
-        "highlights": [
-          "Spearheaded development of various automation tools aimed to greatly enhance workflow efficiency.",
-          "Bluetooth ad parser converts company's IoT device transmission into an easily readable format; **increased time efficiency of testing by 90%**.",
-          "Ad generator dynamically generates Bluetooth Low Energy packet using advertisement protocol."
+          "Designed and implemented web-scraping robot workflows in Node to fetch financial documents and metadata from banks and vendors for **5000+ clients**, navigating websites with 2FA, ReCaptchas, bot detection, etc.",
+          "Constructed new platform on company intranet using Backbone and Express to facilitate & simplify internal beta-testing of existing features for production web app.",
+          "Enhanced robot-success data visualization by integrating new metrics & improving performance breakdowns using C3.js."
         ]
       }
     ]
@@ -175,25 +173,6 @@
         "Kotlin",
         "Javascript"
       ]
-    },
-    {
-      "title": "Othello AI",
-      "location": "",
-      "category": "",
-      "url": "https://github.com/binilpokhrel/othello",
-      "repo": "https://github.com/binilpokhrel/othello",
-      "media": [],
-      "role": "",
-      "summary": "",
-      "description": "",
-      "highlights": [
-        "Designed & developed a 1-player Othello game with 4-ply minimax, heuristic, and alpha-beta pruning algorithms for AI.",
-        "Implemented LED board and push buttons to facilitate more intuitive gameplay with legal move highlighting."
-      ],
-      "keywords": [
-        "C++",
-        "Arduino"
-      ]
     }
   ],
   "education": {
@@ -208,9 +187,13 @@
         "start": "2017-09",
         "end": "2022-05",
         "grade": "",
-        "summary": "",
+        "summary": "Dean's Honours List",
         "curriculum": [
-          ""
+          "Database Systems",
+          "Algorithm Design & Analysis",
+          "Compilers",
+          "Algorithms & Data Structures",
+          "Real-Time Operating Systems"
         ]
       }
     ]
@@ -224,10 +207,10 @@
           "Javascript (ES8)",
           "TypeScript",
           "SQL",
+          "Python",
           "C/C++",
           "Java",
           "Kotlin",
-          "Python",
           "HTML5",
           "CSS3"
         ]
@@ -237,23 +220,21 @@
         "level": "",
         "skills": [
           "Angular 7+8",
-          "Node.js",
-          "RxJS",
-          "Express.js",
+          "React",
+          "Node",
+          "Express",
           "PostgreSQL",
-          "Objection.js",
-          "jQuery",
-          "Jest",
-          "Handlebars",
-          "SCSS",
-          "Swagger",
-          "Bootstrap",
-          "Backbone.js",
-          "c3.js",
+          "WebSockets",
+          "RxJS",
+          "Sass",
           "Docker",
-          "REST",
-          "Bash",
-          "Git"
+          "Handlebars",
+          "Bootstrap",
+          "Jest",
+          "Objection",
+          "Electron",
+          "C3",
+          "Swagger"
         ]
       }
     ],

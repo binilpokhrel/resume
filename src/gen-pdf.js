@@ -16,12 +16,12 @@ const label = args.label || 'resume';
 
 const filePath = path.resolve(__dirname, `./build/${label}.html`);
 (async () => {
-  console.log('\n*** gen-pdf ***'.white)
+  console.log('\n*** gen-pdf ***'.white);
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  logger.info('Launching webpage...')
+  logger.info('Launching webpage...');
   await page.goto(`file:///${filePath}`, {waitUntil: 'networkidle2'});
-  logger.info('Capturing PDF...')
+  logger.info('Capturing PDF...');
   await page.pdf({
     path: path.resolve(__dirname, `../out/${term}/${label}.pdf`),
     format: 'A4',
