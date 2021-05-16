@@ -236,16 +236,17 @@ section .highlights {
 }
 
 #source {
-  font-weight: var(--lightest);
   text-align: right;
   font-size: smaller;
 }
 
-#source p {
+#source strong {
+  font-family: "Courier New", monospace;
   text-align: inherit;
 }
 
 #source a {
+  font-weight: var(--lightest);
   color: var(--secondary-color);
 }
 
