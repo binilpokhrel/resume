@@ -163,7 +163,7 @@
               color: var(--secondary-color);
             }
             
-            #employment .employer {
+            #employment .employer, #projects .venue {
               font-size: smaller;
               color: var(--primary-color);
             }
@@ -430,7 +430,7 @@
               color: var(--secondary-color);
             }
             
-            #employment .employer {
+            #employment .employer, #projects .venue {
               font-size: smaller;
               color: var(--primary-color);
             }
@@ -613,7 +613,7 @@
                             <li>Optimized end-to-end data flow, building cache services, creating database
                                 indices, and eliminating redundancies in object-relational mapping.</li>
                             <li>Developed a full-stack version management platform for Tensorflow networks
-                                and datasets using Angular, Express, and TypeScript that facilitates a
+                                and datasets using Angular, Express, and PostgreSQL that facilitates a
                                 more intuitive way to train neural networks, resulting in <strong>15% less user downtime</strong>.</li>
                         </ul>
                 </div>
@@ -685,7 +685,8 @@
                         <div class="tenure">2017-09 — 2022-05</div>
                         <p>Dean&#39;s Honours List</p>
                         <p class="keywords"><b>Relevant coursework: </b>Database Systems, Algorithm Design &amp; Analysis,
-                            Compilers, Algorithms &amp; Data Structures, Real-Time Operating Systems</p>
+                            Compilers, Algorithms &amp; Data Structures, Real-Time Operating Systems,
+                            Computer Networks</p>
                     </div>
                 </section>
                 <section id="skills">
@@ -695,11 +696,10 @@
                     </header>
                     <div>
                         <p class="skill-name">Languages</p>
-                        <p class="skill-info">Javascript (ES8), TypeScript, SQL, Python, C/C++, Java, Kotlin, HTML5,
-                            CSS3</p>
+                        <p class="skill-info">Javascript, TypeScript, Python, SQL, Bash, C/C++, Java, Kotlin</p>
                         <p class="skill-name">Technologies</p>
-                        <p class="skill-info">Angular 7+8, React, Node, Express, PostgreSQL, WebSockets, RxJS, Sass,
-                            Docker, Handlebars, Bootstrap, Jest, Objection, Electron, C3, Swagger</p>
+                        <p class="skill-info">Angular, React, Node, Express, PostgreSQL, MySQL, WebSockets, RxJS, Docker,
+                            Sass, Handlebars, Bootstrap, Jest, Objection, Electron, C3, Swagger</p>
                     </div>
                 </section>
                 <section id="projects">
@@ -708,15 +708,20 @@
 
                     </header>
                     <div>
-                         <h2 class="title">
-                  <a href="https://devpost.com/software/pillbox-c9z0sq">PillBox</a>
+                         <h2>
+                  <span class="title">
+                    <a href="https://devpost.com/software/pillbox-c9z0sq">PillBox</a>
+                  </span>
+                    <span class="venue">
+                      |
+                      BostonHacks
+                    </span>
                 </h2>
 
                         <div class="keywords">Express.js, jQuery, AJAX</div>
-                        <div class="location">BostonHacks</div>
                         <ul class="highlights">
-                            <li>Won sponsor prize for <strong>Best Digital Health Hack</strong> with web-app
-                                controlled automatic IoT pill dispensary system.</li>
+                            <li>Won Astrazeneca challenge for <strong>Best Digital Health Hack</strong> with
+                                web-app controlled automatic IoT pill dispensary system.</li>
                             <li>Dashboard enables users and caregivers to setup dosage, schedule, and
                                 text alerts for easy management of medication.</li>
                             <li>Architected entirety of jQuery-driven frontend and designed RESTful API
@@ -724,17 +729,22 @@
                         </ul>
                     </div>
                     <div>
-                         <h2 class="title">
-                  <a href="https://github.com/binilpokhrel/trashtagit">TrashTag-It</a>
+                         <h2>
+                  <span class="title">
+                    <a href="https://github.com/binilpokhrel/trashtagit">TrashTag-It</a>
+                  </span>
+                    <span class="venue">
+                      |
+                      EnergyHacks
+                    </span>
                 </h2>
 
                         <div class="keywords">Kotlin, Javascript</div>
-                        <div class="location">UW EnergyHacks</div>
                         <ul class="highlights">
-                            <li>Developed Android app using Google Maps SDK to chart litter locations
-                                across local communities.</li>
                             <li>Won <strong>first place in MLH</strong>&#39;s Best Use of SnapKit SDK and
                                 Transposit Framework prize categories.</li>
+                            <li>Developed Android app using Google Maps SDK to chart litter locations
+                                across local communities.</li>
                             <li>Built JavaScript API endpoints for location services and Python Flask
                                 web server.</li>
                         </ul>

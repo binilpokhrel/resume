@@ -83,7 +83,7 @@
         ],
         "highlights": [
           "Optimized end-to-end data flow, building cache services, creating database indices, and eliminating redundancies in object-relational mapping.",
-          "Developed a full-stack version management platform for Tensorflow networks and datasets using Angular, Express, and TypeScript that facilitates a more intuitive way to train neural networks, resulting in **15% less user downtime**."
+          "Developed a full-stack version management platform for Tensorflow networks and datasets using Angular, Express, and PostgreSQL that facilitates a more intuitive way to train neural networks, resulting in **15% less user downtime**."
         ]
       },
       {
@@ -144,7 +144,7 @@
       "summary": "",
       "description": "",
       "highlights": [
-        "Won sponsor prize for **Best Digital Health Hack** with web-app controlled automatic IoT pill dispensary system.",
+        "Won Astrazeneca challenge for **Best Digital Health Hack** with web-app controlled automatic IoT pill dispensary system.",
         "Dashboard enables users and caregivers to setup dosage, schedule, and text alerts for easy management of medication.",
         "Architected entirety of jQuery-driven frontend and designed RESTful API for Python Flask backend."
       ],
@@ -156,7 +156,7 @@
     },
     {
       "title": "TrashTag-It",
-      "location": "UW EnergyHacks",
+      "location": "EnergyHacks",
       "category": "Hackathon",
       "url": "https://github.com/binilpokhrel/trashtagit",
       "repo": "https://github.com/binilpokhrel/trashtagit",
@@ -165,8 +165,8 @@
       "summary": "",
       "description": "",
       "highlights": [
-        "Developed Android app using Google Maps SDK to chart litter locations across local communities.",
         "Won **first place in MLH**'s Best Use of SnapKit SDK and Transposit Framework prize categories.",
+        "Developed Android app using Google Maps SDK to chart litter locations across local communities.",
         "Built JavaScript API endpoints for location services and Python Flask web server."
       ],
       "keywords": [
@@ -193,7 +193,8 @@
           "Algorithm Design & Analysis",
           "Compilers",
           "Algorithms & Data Structures",
-          "Real-Time Operating Systems"
+          "Real-Time Operating Systems",
+          "Computer Networks"
         ]
       }
     ]
@@ -204,30 +205,30 @@
         "name": "Languages",
         "level": "",
         "skills": [
-          "Javascript (ES8)",
+          "Javascript",
           "TypeScript",
-          "SQL",
           "Python",
+          "SQL",
+          "Bash",
           "C/C++",
           "Java",
-          "Kotlin",
-          "HTML5",
-          "CSS3"
+          "Kotlin"
         ]
       },
       {
         "name": "Technologies",
         "level": "",
         "skills": [
-          "Angular 7+8",
+          "Angular",
           "React",
           "Node",
           "Express",
           "PostgreSQL",
+          "MySQL",
           "WebSockets",
           "RxJS",
-          "Sass",
           "Docker",
+          "Sass",
           "Handlebars",
           "Bootstrap",
           "Jest",

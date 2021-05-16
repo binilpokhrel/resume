@@ -154,7 +154,7 @@ section div h2 {
   color: var(--secondary-color);
 }
 
-#employment .employer {
+#employment .employer, #projects .venue {
   font-size: smaller;
   color: var(--primary-color);
 }
