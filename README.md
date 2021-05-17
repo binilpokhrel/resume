@@ -31,7 +31,7 @@ Clone this project, then create a `out/${TERM}/` path from the project root to s
 
 Updating formats becomes trivial: the HTML & CSS just has to be tweaked accordingly and then the script rerun.
 
-![Sample Resume, Primary Format](/src/assets/readme-resume-2.png)
+![Sample Resume, Primary Format](/src/assets/readme-resume-3.png)
 
 ## Built With
 
