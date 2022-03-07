@@ -40,13 +40,35 @@
     "summary": "",
     "history": [
       {
+        "employer": "Meta",
+        "url": "https://about.facebook.com/meta/",
+        "position": "Software Engineer Intern",
+        "summary": "",
+        "start": "2021-08",
+        "end": "2021-12",
+        "location": "Remote",
+        "keywords": [
+          "React",
+          "Redux",
+          "Relay",
+          "GraphQL",
+          "Hack (PHP)",
+          "Python",
+          "Lua"
+        ],
+        "highlights": [
+          "Seller Success: Community Content Team",
+          "Owned end-to-end development of suggested products feature within Community Content, which highlights across different surfaces IG/FB catalogue items identified in community-created posts for brands."
+        ]
+      },
+      {
         "employer": "DarwinAI",
         "url": "https://www.darwinai.com/",
-        "position": "Full Stack Developer",
+        "position": "Fullstack Developer Intern",
         "summary": "",
         "start": "2020-09",
         "end": "2020-12",
-        "location": "Waterloo, ON",
+        "location": "Remote",
         "keywords": [
           "React",
           "Angular",
@@ -60,14 +82,13 @@
         "highlights": [
           "Spearheaded performance engineering strategy by analyzing performance profiles, reducing network load size, and identifying key bottlenecks of core platform to **improve runtime performance by 95%**.",
           "Led full-stack development for open source COVID-Net UI platform in React and Python to provide **AI screening and risk stratification of COVID-19** to 23 hospitals.",
-          "Improved COVID-Net platform stability and user experience by building notification system and error service to terminate dead backend plugins.",
-          "Engineered several application-level middleware for Express backend, handling input data sanitization & parameter validation and eliminating key vulnerabilities in web application."
+          "Improved COVID-Net platform stability and user experience by building notification system and heartbeat service to terminate dead backend plugins."
         ]
       },
       {
         "employer": "DarwinAI",
         "url": "https://www.darwinai.com/",
-        "position": "Full Stack Developer",
+        "position": "Fullstack Developer Intern",
         "summary": "",
         "start": "2020-01",
         "end": "2020-04",
@@ -89,7 +110,7 @@
       {
         "employer": "InFlight",
         "url": "https://inflightintegration.com/",
-        "position": "Software Developer",
+        "position": "Software Developer Intern",
         "summary": "",
         "start": "2019-05",
         "end": "2019-08",
@@ -102,15 +123,14 @@
           "TypeScript Compiler API"
         ],
         "highlights": [
-          "Built internal data model parser using TypeScript Compiler API to increase visibility into product performance and to facilitate automation of unit tests, **saving 200+ hours of developer work**.",
-          "Engineered robust, self-repairing test suite API with Jest, generating **20x testing coverage**; published for use across engineering team.",
+          "Built internal data model parser using TypeScript Compiler API to increase visibility into product performance and to facilitate automation of unit tests, generating generating **20x testing coverage** and **saving 200+ hours of developer work**.",
           "Leveraged Angular's life-cycle hooks and response caching in frontend overhaul, leading to **20% reduction in inter-service latency and request runtime**."
         ]
       },
       {
         "employer": "Hubdoc",
         "url": "https://www.hubdoc.com/",
-        "position": "Software Developer",
+        "position": "Software Developer Intern",
         "summary": "",
         "start": "2018-09",
         "end": "2018-12",
@@ -126,8 +146,7 @@
         ],
         "highlights": [
           "Designed and implemented web-scraping robot workflows in Node to fetch financial documents and metadata from banks and vendors for **5000+ clients**, navigating websites with 2FA, ReCaptchas, bot detection, etc.",
-          "Constructed new platform on company intranet using Backbone and Express to facilitate & simplify internal beta-testing of existing features for production web app.",
-          "Enhanced robot-success data visualization by integrating new metrics & improving performance breakdowns using C3.js."
+          "Constructed new platform on company intranet using Backbone and Express to facilitate & simplify internal beta-testing of existing features for production web app."
         ]
       }
     ]
